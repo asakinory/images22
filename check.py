@@ -50,3 +50,4 @@ def start(args):
     print('algorithm started streaming')
     # input = args['input'][0]
     stream_tweet.filter(track=keywords)
+    return args['input'][0]
